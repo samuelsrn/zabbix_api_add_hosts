@@ -47,7 +47,7 @@ def create_host(templates, host, ip, groupid):
 start_time = time.time()
 
 #caminho csv
-with open('defensoria_hosts.csv') as file:
+with open('hosts.csv') as file:
     file_csv = csv.reader(file, delimiter=';')
     for [hostname,ipaddress,groupids] in file_csv:
         create_host(host=hostname,ip=ipaddress,groupid=groupids)
