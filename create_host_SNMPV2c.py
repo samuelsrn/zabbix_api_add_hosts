@@ -66,7 +66,7 @@ def create_host(host, ip, groupid):
         print(f'Falha ao cadastrar o host: erro {err}')
 
 start_time = time.time()
-with open('/tmp/hosts.csv') as file:
+with open('hosts.csv') as file:
     file_csv = csv.reader(file, delimiter=';')
     for [hostname,ipaddress,groupids] in file_csv:
         create_host(host=hostname,ip=ipaddress,groupid=groupids)
