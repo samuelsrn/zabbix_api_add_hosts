@@ -18,10 +18,10 @@ info_interfaces = {
     "2": {"type": "SNMP", "id": "2", "port": "161"},
 }
 
-groupids = []
+groupids = ['']
 groups = [{"groupid": groupid} for groupid in groupids]
 
-templateids = ['10183']
+templateids = ['']
 templates = [{"templateid": templateid} for templateid in templateids]
 
 def create_host(host, ip, groupid):
