@@ -18,9 +18,6 @@ info_interfaces = {
     "2": {"type": "SNMP", "id": "2", "port": "161"},
 }
 
-groupids = ['']
-groups = [{"groupid": groupid} for groupid in groupids]
-
 templateids = ['']
 templates = [{"templateid": templateid} for templateid in templateids]
 
