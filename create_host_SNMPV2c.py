@@ -42,22 +42,6 @@ def create_host(host, ip, groupid):
                     "version": 2,
                     "bulk": 0,
                     "community": "public"
-                }
-                "macros": [{
-                    "macro": "{$USERNAME}",
-                    "value": "root"
-                },
-                {
-                    "macro": "{$PASSWORD}",
-                    "value": "snmp_comunity"
-                },
-                {
-                    "macro": "{$URL}",
-                    "value": "https://"ip"/sdk"
-                },
-                {
-                    "macro": "{$UUID}",
-                    "value": "4C4C4544-0032-5310-8050-B3C04F4A3832"
                 }]
             }
         })
